@@ -12,6 +12,7 @@
         <AssociationConnector Association="SchoolModel.FK_Student_University" ManuallyRouted="false" />
         <AssociationConnector Association="SchoolModel.FK_Teacher_University_Teacher" ManuallyRouted="false" />
         <AssociationConnector Association="SchoolModel.FK_Teacher_University_University" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SchoolModel.sysdiagram" Width="1.5" PointX="0.75" PointY="4.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

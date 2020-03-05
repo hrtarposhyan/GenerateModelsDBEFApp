@@ -29,5 +29,6 @@ namespace GenerateModelsDBEFApp.Data
         public virtual DbSet<Teacher> Teachers { get; set; }
         public virtual DbSet<Teacher_University> Teacher_University { get; set; }
         public virtual DbSet<University> Universities { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
     }
 }

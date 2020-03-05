@@ -70,7 +70,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Models.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Data\Partial Models\Student.cs" />
     <Compile Include="Data\Student.cs">
+      <DependentUpon>Models.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\sysdiagram.cs">
       <DependentUpon>Models.tt</DependentUpon>
     </Compile>
     <Compile Include="Data\Teacher.cs">
@@ -102,6 +106,7 @@
       <DependentUpon>Models.edmx</DependentUpon>
       <LastGenOutput>Models.Context.cs</LastGenOutput>
     </Content>
+    <Content Include="Data\Models.edmx.sql" />
     <Content Include="Data\Models.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Models.edmx</DependentUpon>
